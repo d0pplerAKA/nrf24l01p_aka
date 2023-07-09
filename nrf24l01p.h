@@ -17,7 +17,7 @@
 
 /************************************************************/
 
-/******************** Functions that needs override ********************/
+/******************** Functions that need override ********************/
 #define NRF_CE_HIGH()                   GPIO_SetBits(GPIOB, GPIO_Pin_CE)
 #define NRF_CE_LOW()                    GPIO_ResetBits(GPIOB, GPIO_Pin_CE)
 
